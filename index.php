@@ -80,3 +80,20 @@ if ($result1-> num_rows > 0) {
 </body>
 
 </html>
+
+
+
+INSERT INTO videos (description, url) 
+VALUES ("Cruz Cafune - Amen", "https://www.youtube.com/watch?v=gIiPs6ugIPM"), ("21 días sin gastar dinero, de Nil Ojeda", "https://www.youtube.com/watch?v=0aQXNCVipOg"), ("Recycled-J - Bambino, "https://www.youtube.com/watch?v=o_28KzytGgM"), ("Liquicity Year Mix", "https://www.youtube.com/watch?v=94T_u_d8HBM&list=RDQMf3sJMqI5dO0&start_radio=1")
+
+
+
+CREATE TABLE videos (
+id MEDIUMINT NOT NULL AUTO_INCREMENT,
+description MEDIUMTEXT,
+url MEDIUMTEXT NOT NULL,
+primary key (id));
+
+
+INSERT INTO videos (description, url) 
+VALUES ("Cruz Cafune - Ghosteame", "https://www.youtube.com/watch?v=BolMqMjtC50");
