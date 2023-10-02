@@ -1,0 +1,35 @@
+body {
+    background-color: green;
+}
+
+.login-button {
+
+background-color: blue;
+background-size: auto;
+color:white;
+padding : 10px 20px;
+cursor:pointer;
+transition: background-color 0.3s ease;
+position:relative;
+left:80%;
+bottom:15%;
+display: flex;
+}
+
+.login-button:hover {
+background-color: aqua;
+}
+
+.copyright {
+    text-align: center;
+   background-color: aquamarine;
+   
+  
+}
+
+.titling {
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4vw;
+    color: cyan;
+}
