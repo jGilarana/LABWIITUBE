@@ -61,7 +61,8 @@ $result1 = $conn->query($videoQuery);
 
 if ($result1-> num_rows > 0) {
     while ($row = $result1-> fetch_assoc()) {
-        echo "<li>" . $row["description"]. " : "  . "<br>".$row["url"]. "</li>";    }
+        echo "<li>" . $row["description"]. " : "  . "<br>"."<a href=". $row["url"].">" .$row["url"] ." </a>. </li>";
+    }
 }
 
 ?>
